@@ -1,0 +1,19 @@
+.kol1{
+	width: 200px;
+	height: auto;
+	display:table-cell;
+	border-left: solid;
+}
+.kol2{
+	display:table-cell;
+	height: auto;
+	width: 581px;
+	border-left: solid;
+	border-right: solid;
+}
+p{
+	padding-left: 5px;
+}
+h3{
+	align:center;
+}
