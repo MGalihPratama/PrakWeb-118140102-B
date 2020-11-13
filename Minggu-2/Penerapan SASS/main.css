@@ -1,0 +1,163 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: url(img/cool-background.png);
+}
+
+nav {
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+section .space {
+  margin-top: 300px;
+}
+
+section #home {
+  height: 500px;
+  font-size: 100px;
+  color: #fdc867;
+  padding-top: 150px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(155, 211, 192, 0.6)), to(rgba(0, 0, 0, 0.9))), url(img/itera.jpg);
+  background: linear-gradient(rgba(155, 211, 192, 0.6), rgba(0, 0, 0, 0.9)), url(img/itera.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+section #contact {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.9))), url(img/paimon.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url(img/paimon.png);
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  padding-bottom: 2%;
+}
+
+section #contact .container {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+section #contact .container h1 {
+  text-align: center;
+  color: #eeebeb;
+  letter-spacing: 2px;
+  text-decoration: underline;
+  text-underline-position: under;
+  font-size: 60px;
+}
+
+section #contact .container .submit {
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 2px;
+  margin-left: 3%;
+  border: 2px solid #bebebe;
+  color: #bebebe;
+  width: 30%;
+  background: none;
+  padding: 4px;
+  outline: none;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 33px;
+}
+
+section #contact .container p {
+  width: 70%;
+  padding-bottom: 3%;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+section #contact .container .form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+}
+
+section #contact .container input {
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin: 10px;
+  width: 70%;
+  background-color: rgba(136, 133, 133, 0.5);
+}
+
+section #contact .container textarea {
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin: 10px;
+  width: 70%;
+  background-color: rgba(136, 133, 133, 0.5);
+}
+
+section #gallery {
+  padding-top: 1px;
+}
+
+section #gallery h2 {
+  text-align: center;
+}
+
+section #gallery h1 {
+  text-align: center;
+  color: black;
+  letter-spacing: 2px;
+  text-decoration: underline;
+  text-underline-position: under;
+  font-size: 60px;
+}
+
+section #gallery li {
+  list-style: none;
+}
+
+section #about {
+  padding-top: 1px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(155, 211, 192, 0.6)), to(rgba(0, 0, 0, 0.9))), url(img/me.jpg);
+  background: linear-gradient(rgba(155, 211, 192, 0.6), rgba(0, 0, 0, 0.9)), url(img/me.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  width: 100%;
+  padding-bottom: 2%;
+}
+
+section #about h1 {
+  text-align: center;
+  color: #48e248;
+  letter-spacing: 2px;
+  text-decoration: underline;
+  text-underline-position: under;
+  font-size: 60px;
+}
+
+section #about h3, section #about p {
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+}
+/*# sourceMappingURL=main.css.map */

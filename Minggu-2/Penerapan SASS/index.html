@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penerapan SASS Style</title>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+ <nav>
+     <div class="nav">  
+         <a href="#navbar">Navbar</a>
+         <a href="#home">Home</a>
+         <a href="#contact">Contact</a>
+         <a href="#gallery">Gallery</a>
+         <a href="#about">About</a>
+     </div>
+
+ </nav>   
+
+    <section>
+        <div id=navbar></div>
+        <div id="home">
+
+            <h1 align="center">Home</h1>
+
+        </div>
+        <div class="space"><br></div>   
+        <div id="contact">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>You can email us and Check your email about one to two hours</p>
+                <div class="form">        
+                    <form method="POST">
+                      <input type="text" placeholder="Your Name" required><br>
+                      <input type="text" placeholder="Last Name"><br>
+                      <input type="Email" placeholder="Email" required><br>
+                      <input type="text" placeholder="Subject this message"><br>
+                      <textarea name="pesan" placeholder="pesan" rows="5" required></textarea><br>
+                      <button class="submit" >Send</button> 
+                    </form>    
+                </div>
+            </div>
+        </div>
+        <div class="space"><br></div>
+        <div>
+            <div id="gallery">
+                <h1>Gallery</h1>
+                <ul>
+                    <h2>Foto Gerbang Itera</h2>
+                    <li><img src="img/gerbang.jpg" alt="gerbang" style="display: block; margin: auto;"></li>
+                    <h2>Foto Laboratorium Teknik 2 </h2>
+                    <li><img src="img/labtek2.jpg" alt="labtek" style="display: block; margin: auto;"></li>
+                    <h2>Foto Asrama</h2>
+                    <li><img src="img/asrama.jpg" alt="asrama" style="display: block; margin: auto;" ></li>
+                    <h2>Foto Embung</h2>
+                    <li><img src="img/embung.jpg" alt="embung" style="display: block; margin: auto;"></li>
+                </ul>
+            </div>
+        </div>
+    <div class="space"><br></div> 
+    <div id="about">
+        <h1 align="center ">About Us</h1>
+        <h3>Editor: </h3>
+        <p><b>118140102 , M. GALIH PRATAMA</b></p>
+    </div>
+    </section>
+</body>
+</html>
