@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <name>
+    <first>M. GALIH</first>
+    <last>PRATAMA</last>
+  </name>
+
+  <gender>Laki-laki</gender>
+
+  <saudara>
+    <first>Annisa</first>
+  </saudara>
+
+  <orangtua>
+    <ayah>Sumartono</ayah>
+    <ibu>Khotimah</ibu>
+  </orangtua>
+
+  <hobby>
+    <first>FPS game</first>
+    <second>Rythm Game</second>
+  </hobby>
+
+  <alamat>Sukarame , Way dadi</alamat>
+  <social_media>
+    <ig>mgalihpratama0</ig>
+  </social_media>
+</root>
